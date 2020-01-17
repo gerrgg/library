@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Greg's JS Tic-Tac-Toe</title>
+        <meta name="description" content="We’re making a Tic Tac Toe game you can play in your browser!">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <header>
+            <b>Project:</b> 
+            <a href="https://www.theodinproject.com/courses/javascript/lessons/tic-tac-toe-javascript?ref=lnav">https://www.theodinproject.com/courses/javascript/lessons/tic-tac-toe-javascript?ref=lnav</a> <br>
+            <b>Author:</b>
+            <a href="gerrg.com">Gregory Bastianelli</a>
+        </header>
+        <div id="board">
+            <h1>Tic-Tac-Toe</h1>
+            <p class="feedback">Player 1 Wins!</p>
+            <div class="row">
+                <div id="cell-1" class="cell">X</div>
+                <div id="cell-2" class="cell">X</div>
+                <div id="cell-3" class="cell">X</div>
+            </div>
+            <div class="row">
+                <div id="cell-4" class="cell">O</div>
+                <div id="cell-5" class="cell">O</div>
+                <div id="cell-6" class="cell">O</div>
+            </div>
+            <div class="row">
+                <div id="cell-7" class="cell">X</div>
+                <div id="cell-8" class="cell">O</div>
+                <div id="cell-9" class="cell">X</div>
+            </div>
+            <div id="ui">
+                <div id="score">
+                    <p>Player 1: <span id="player-one-score">6</span></p>
+                    <p>Player 2: <span id="player-two-score">2</span></p>
+                </div>
+                <div id="restart">
+                    <button>Restart</button>
+                </div>
+            </div>
+        </div>
+        
+        <script src="script.js" async defer></script>
+    </body>
+</html>

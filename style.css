@@ -1,0 +1,79 @@
+h1{
+    text-align: center;
+    margin: 0px;
+    font-size: 64px;
+}
+
+body{
+    background: #333;
+
+}
+
+.row{
+    display: flex;
+}
+
+header{
+    margin: 0 auto;
+    width: 900px;
+    text-align: center;
+    padding-bottom: 1rem;
+    border-bottom: 2px dashed #fff;
+}
+
+header b{
+    color: #ff8484;
+}
+
+header, header a{
+    color: #fff;
+}
+
+#board{
+    width: 500px;
+    height: 700px;
+    background-color: #fff;
+    margin: 1rem auto;
+}
+
+.cell{
+    width: 33%;
+    margin: auto;
+    font-size: 140px;
+    text-align: center;
+    border: 1px solid #333;
+}
+
+#ui{
+    height: 96px
+}
+
+#score{
+    width: 50%;
+    float: left;
+}
+
+#score > p{
+    margin: 0px;
+    font-size: 40px;
+}
+
+#restart{
+    float: right;
+}
+
+#restart button{
+    background-color: #f55;
+    color: #fff;
+    border: 1px solid #f55;
+    font-size: 64px;
+}
+
+.feedback{
+    background-color: #333;
+    color: #fff;
+    margin-top: 4px;
+    margin-bottom: 0px;
+    text-align: center;
+    height: 19px;
+}
