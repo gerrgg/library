@@ -38,6 +38,7 @@ header, header a{
 
 .cell{
     width: 33%;
+    height: 170px;
     margin: auto;
     font-size: 140px;
     text-align: center;
